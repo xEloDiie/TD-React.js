@@ -50,6 +50,8 @@ function App() {
         onChange={e => setSearch(e.target.value)}
       />
 
+      <br></br>
+
       {/* Liste des noms des super-héros */}
       <ul>
         {filteredHeroes.map(hero => (
